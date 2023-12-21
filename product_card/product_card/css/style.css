@@ -1,0 +1,229 @@
+/* Globel */
+*
+{
+	box-sizing: border-box;
+	/*border: 1px solid #000;*/
+}
+a
+{
+	text-decoration: none;
+	color: #000;
+}
+/* 使高度可以滿版 */
+html,body
+{
+	height: 100%;
+}
+
+h1,h2,p
+{
+	 margin: 0;
+}
+/* 背景容器 */
+.weapper
+{
+	height: 100%;
+	background-color: #ccc;
+	background: linear-gradient(#FF2C2C,#090909);
+	overflow: hidden;
+}
+/* product設定 */
+.product
+{
+	width: 800px;
+	height: 800px;
+	background-color: #282828;
+	border: 2px solid #BCA48F;
+	box-shadow: 0 20px 80px 0 rgba(0,0,0,0.5);
+
+	/*水平居中(display margin 去完成)
+		1. display: block;
+		2. 要有寬度值設定
+		3. margin 水平方向 auto
+	*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	margin-bottom: 200px;
+
+	padding: 12px;
+	border-radius: 10px;
+}
+
+.product .info
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding: 64px 56px;
+	background-color: #1D1D1D;
+	height: 100%;
+	border-radius: 10px;
+}	
+.product .image
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	height: 530px;
+	height: 95%;
+	overflow: hidden;
+	margin-top: 150px;
+	border-radius: 0px 30px 15px 15px;
+}
+.product .image ima
+{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+.product .name
+{
+	font-size: 80px;
+	font-weight: 300;
+	color: #BCA48F;
+	white-space: nowrap;
+	margin-top: -30px;
+	margin-bottom: 16px;
+	text-shadow: 40px -15px 10px rgba(0, 0, 0, 0.5);
+
+	/* 定位元素與層級設定 */
+	position: relative;
+	z-index: 10;
+
+}
+.product .price
+{
+	font-size: 48px;
+	font-weight: 300;
+	color: #F24D4D;
+	margin-bottom: 48px;
+	margin-top: 48px;
+}
+.product .des
+{
+	font-size: 16px;
+	line-height: 24px;
+	color: #BCA48F;
+	margin-bottom: 48px;
+}
+.product .btn1
+{
+	display: inline-block;
+	/*方法1*/
+	padding: 12px 40px;
+	line-height: 24px;
+	border-radius: 90px;
+	margin-left: 20px;
+	margin-bottom: 48px;
+	/*方法2*/
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #ffff;
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5);
+	background-color: ;
+	background:;
+
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,79,79,1) 5%, rgba(237,42,42,1) 70%, rgba(41,22,22,0) 100%);
+}
+.product .btn2
+{
+	display: inline-block;
+	/*方法1*/
+	border-radius: 80px;
+	padding: 20px 4px;
+	margin-top: 36px;
+	margin-right: 10px;
+	border: 1px solid #5754FF;
+	/*line-height: 16px;*/
+	/*方法2*/
+	text-align: center;
+	/*width: 48px;*/
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #ffff;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5);
+	background-color: ;
+	background:;
+
+	background: rgb(48,111,255);
+	background: linear-gradient(133deg, rgba(48,111,255,1) 0%, rgba(0,24,172,1) 50%);
+}
+.product .btn3
+{
+	display: inline-block;
+	/*方法1*/
+	border-radius: 80px;
+	padding: 25px 4px;
+	margin-top: 36px;
+	margin-right: 10px;
+	border: 1px solid #FF54BB;
+	/*line-height: 16px;*/
+	/*方法2*/
+	text-align: center;
+	/*width: 48px;*/
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #ffff;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5);
+	background-color: ;
+	background:;
+
+	background: rgb(244,94,162);
+	background: linear-gradient(133deg, rgba(244,94,162,1) 0%, rgba(193,0,72,1) 50%);
+}
+.product .btn4
+{
+	display: inline-block;
+	/*方法1*/
+	border-radius: 80px;
+	padding: 35px 2px;
+	margin-top: 36px;
+	margin-right: 10px;
+	border: 1px solid #454545;
+	/*line-height: 16px;*/
+	/*方法2*/
+	text-align: center;
+	/*width: 48px;*/
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #ffff;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5);
+	background-color: ;
+	background:;
+
+	background: rgb(80,80,80);
+	background: linear-gradient(133deg, rgba(80,80,80,1) 0%, rgba(17,0,6,1) 50%);
+}
+.product .btn5
+{
+	display: inline-block;
+	/*方法1*/
+	border-radius: 80px;
+	padding: 32px 10px;
+	margin-top: 36px;
+	border: 1px solid #41B561;
+
+	/*line-height: 16px;*/
+	/*方法2*/
+	text-align: center;
+	/*width: 48px;*/
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #ffff;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5);
+	background-color: ;
+	background:;
+
+	background: rgb(99,227,112);
+	background: linear-gradient(133deg, rgba(99,227,112,1) 0%, rgba(0,121,4,1) 50%);
+}
