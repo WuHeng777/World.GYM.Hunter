@@ -31,7 +31,7 @@ h1,h2,p
 .product
 {
 	width: 800px;
-	height: 540px;
+	height: 800px;
 	background-color: #282828;
 	border: 2px solid #BCA48F;
 	box-shadow: 0 20px 80px 0 rgba(0,0,0,0.5);
@@ -44,7 +44,8 @@ h1,h2,p
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 128px;
+	margin-top: 200px;
+	margin-bottom: 200px;
 
 	padding: 12px;
 	border-radius: 10px;
@@ -97,14 +98,15 @@ h1,h2,p
 	font-size: 48px;
 	font-weight: 300;
 	color: #F24D4D;
-	margin-bottom: 16px;
+	margin-bottom: 48px;
+	margin-top: 48px;
 }
 .product .des
 {
 	font-size: 16px;
 	line-height: 24px;
 	color: #BCA48F;
-	margin-bottom: 16px;
+	margin-bottom: 48px;
 }
 .product .btn1
 {
@@ -114,11 +116,12 @@ h1,h2,p
 	line-height: 24px;
 	border-radius: 90px;
 	margin-left: 20px;
+	margin-bottom: 48px;
 	/*方法2*/
 	text-align: center;
 	width: 200px;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	color: #ffff;
 	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5);
